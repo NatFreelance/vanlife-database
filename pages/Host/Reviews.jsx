@@ -27,11 +27,11 @@ export default function Reviews() {
                     Last <span>30 days</span>
                 </p>
             </div>
-            {/* <img
+            <img
                 className="graph"
-                src="/assets/images/reviews-graph.png"
+                src="/assets/images/reviews-graph.webp"
                 alt="Review graph"
-            /> */}
+            />
             <h3>Reviews (2)</h3>
             {reviewsData.map((review) => (
                 <div key={review.id}>
